@@ -61,7 +61,7 @@ app.get('/', (req, res) => {
   if (username !== null && username !== '' && typeof username !== 'undefined') {
     res.send('<h1>Hello ' + username + '! The hostname is: ' + hostname + '</h1>');	
   } else {
-    res.send('<h1 style="color:red">Hello from Node.js Starter Application! The hostname is: <u>' + hostname + '</u></h1>');	
+    res.send('<h1 style="color:blue">Hello from Node.js Starter Application! The hostname is: <u>' + hostname + '</u></h1>');	
   }
 });	
 
